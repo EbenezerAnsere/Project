@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <div class="header">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>Product</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <!-- <h2><i class="fa fa-shopping-cart"></i></h2> -->
+    <div class="shoppingcart">
+        <div class="row">
+            <div class="col">
+                <div class="slider">
+                    <div class="product">
+                        <img src="images/longdress_1.jpg" alt="" onclick="clickme(this)" />
+                        <img src="images/dress_2.jpg" alt="" onclick="clickme(this)" />
+                        <img src="images/newdress_3.jpg" alt="" onclick="clickme(this)" />
+                        <img src="images/newshoe_4.jpg" alt="" onclick="clickme(this)" />
+                    </div>
+                    <div class="preview">
+                        <img src="images/longdress_1.jpg" id="imagebox" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="brand">
+                    <h2 class="brand">Boys' Stillwater Sherpa 1/4-Zip</h2>
+                    <br />
+                    <div class="product-rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <span>150 Reviews</span>
+                    </div>
+                    <br />
+                    <div class="name">
+                        <br />
+                        <div class="price">
+                            <h3>FREE GROUND SHIPPING on all orders over $125:</h3>
+                            <span>$48.99 <strike> $50.00</strike></span>
+                        </div>
+                    </div>
+                    <div class="choose-colour">
+                        <h4>Colour:camel</h4>
+                        <input type="radio" />
+                    </div>
+                    <br />
+                    <div class="size">
+                        <h4>
+                            Size:L
+                            <h2>Size Chart</h2>
+                        </h4>
+                    </div>
+                    <br />
+                    <div class="size1">
+                        <h4>size in dress</h4>
+                        <h4>In Stock</h4>
+                    </div>
+                    <br />
+                    <br />
+                    <br />
+                    <button><a href="Cart.html">Add to Cart</a></button>
+                    <div class="buyonline" onclick="OrderCart">
+                        buy buy-online, free in store pickup
+                    </div>
+                    <br />
+                    <br />
+                    <div class="delivery">
+                        <h4>
+                            Same Day Delivery-Check <a href="delivery.html">Availability</a>
+                        </h4>
+                    </div>
+                    <br />
+                    <div class="paypal">
+                        <h3>PayPal amazon pay</h3>
+                        <h4>or 4 payments of $32.00 by afterpay?</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div id="Cart">Add to Cart</div>
+    <br />
+    <hr />
+    <div class="footer">
+        <p>contact: 0204058334</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
